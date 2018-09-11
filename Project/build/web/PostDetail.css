@@ -1,0 +1,86 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 17, 2017, 8:35:17 PM
+    Author     : KietPT
+*/
+.header{
+    margin-top: 10px;
+    height: 50px;
+}
+.logo{
+    margin-top: 7px;
+}
+.signin{
+    float: right;
+    padding-left: 60px;
+    font-size: 20px;
+    margin-top: 7px;
+    
+}
+.nextheader{
+    margin-top: 5px;
+    height: 60px;
+}
+.navbar-left{
+    float: right;
+    margin-left: 400px;
+}
+.abody{
+    margin-top: 10px;
+    height: 450px;
+}
+.bodyHeader{
+    margin-left: 50px;
+    text-transform: uppercase;   
+}
+.content{
+    margin-left: 10px;
+    padding-left: 20px;
+    text-indent: 20px;
+    font-size: 15px;
+}
+.avatar{
+    margin-left: 10px;
+    padding-left: 100px;
+    font-size: 20px;
+}
+.footer{
+    height: 100px;
+    font-size: 20px;
+    margin-top: 10px;
+    background-color: #CCCCCC;
+}
+.contact{
+    margin-top: 10px;
+}
+.label{
+    text-align: center;
+    color: black;
+    font-size: 15px;
+    margin-left: 20px;
+}
+.sex{
+    margin-left: 15px;
+    margin-top: 5px;
+}
+.createButton{
+    margin-left: 120px;
+    margin-top: 10px;
+}
+.avatar2{
+    width: 60px;
+    height: 50px;
+}
+.avatar2 > img{
+    width: 100%;
+    height: 100%;
+}
+.showCmt{
+    box-sizing: border-box;
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+}

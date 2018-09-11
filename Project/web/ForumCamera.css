@@ -1,0 +1,150 @@
+.abody {
+    min-height: 76vh;
+}
+
+.headerTitle {
+    background-color: #EEEEEE;
+}
+
+.headerTitle > a > h2 {
+    font-weight: bold;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    color: black;
+}
+#rightBodyTitle{
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+.mainPicture {
+    height: 229.750px;
+    margin-top: 10px;
+}
+
+.leftPicture {
+    width: 97.5%;
+    height: 100%;
+    position: absolute;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.content {
+    margin-top: 15px;
+}
+
+.mainContent {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    font-size: 17px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px
+}
+
+.leftBody {
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #DDDDDD;
+    border-radius: 5px;
+    
+}
+
+.timeUp {
+    font-size: 15px;
+    float: right;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+.rightBody {
+    box-sizing: border-box;
+    border: 1px solid #DDDDDD;
+    border-radius: 5px;
+}
+
+.headerRight > span {
+    font-size: 30px
+}
+
+.headerRight {
+    box-sizing: border-box;
+    border-bottom: 1px solid #DDDDDD;
+    margin-bottom: 10px;
+}
+
+.headerTitleDetail {
+    color: black;
+}
+.timeUpDetails{
+    margin-left: 40px;
+    font-size: 15px;
+}
+.mainContentDetails{
+    font-size: 17px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px
+}
+.footer{
+    background-color: #f5f5f5;
+}
+.comment{
+    margin: 20px 10px 10px 10px;
+}
+#lbCmt{
+    font-size: 20px;
+}
+.btnCmt{
+    float: right;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.user_name{
+    font-size:14px;
+    font-weight: bold;
+}
+.comments-list .media{
+    border-bottom: 1px dotted #ccc;
+}
+.listCmt{
+    margin: 20px 10px 10px 10px;
+}
+#avatar{
+    width: 40px;
+    height: 40px;
+}
+.media{
+    margin-bottom: 5px;
+}
+#titleComment{
+    margin: 20px 10px 10px 10px;
+    box-sizing: border-box;
+    border-top: 1px dotted #ccc;
+}
+.titleHotNews{
+    font-size: 20px;
+    color: black;
+}
+.news-column{
+    box-sizing: border-box;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+#lastRightBody{
+    margin-bottom: 0px;
+}
+.logout{
+    margin-top: 10px;
+}
+#welcome{
+    margin-top: 15px;
+    margin-right: 5px;
+}

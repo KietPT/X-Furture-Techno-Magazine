@@ -1,0 +1,86 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 21, 2017, 11:02:40 AM
+    Author     : KietPT
+*/
+.header{
+    margin-top: 10px;
+    height: 50px;
+}
+.logo{
+    margin-top: 7px;
+}
+.signin{
+    float: right;
+    padding-left: 50px;
+    font-size: 20px;
+    margin-top: 7px;
+    
+}
+.nextheader{
+    margin-top: 5px;
+    height: 60px;
+}
+.navbar-left{
+    float: right;
+    margin-left: 400px;
+}
+.abody{
+    margin-top: 10px;
+}
+.nextbody{
+    margin-left: 100px;
+    box-sizing: border-box;
+    border-bottom: 1px solid black;
+}
+.forum{
+    margin-left: 200px;
+    font-size: 20px;
+}
+.picture{
+    height: 60px;
+    width: 90px;
+    margin: 5px;
+}
+.picture > img{
+    width: 100%;
+    height: 100%;
+}
+.title{
+    margin-top: 10px;
+    font-size: 20px;
+}
+.title:hover{
+    color: greenyellow;
+    font-size: 21px;
+}
+.footer{
+    height: 100px;
+    font-size: 20px;
+    margin-top: 10px;
+    background-color: #CCCCCC;
+}
+.contact{
+    margin-top: 10px;
+}
+.label{
+    text-align: center;
+    color: black;
+    font-size: 15px;
+    margin-left: 20px;
+}
+.sex{
+    margin-left: 15px;
+    margin-top: 5px;
+}
+.createButton{
+    margin-left: 120px;
+    margin-top: 10px;
+}
+
+
+	

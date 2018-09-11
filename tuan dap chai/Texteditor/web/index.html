@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+<!--        <meta charset="utf-8">
+
+         Include external CSS. 
+        
+        <link href="font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="codemirror-5.30.0/lib/codemirror.css"/>
+        
+
+         Include Editor style. 
+        
+        <link rel="stylesheet" href="froala_editor_2.7.0/css/froala_editor.pkgd.min.css" type="text/css"/>
+        <link rel="stylesheet" href="froala_editor_2.7.0/css/froala_style.min.css" type="text/css"/>-->
+        
+        
+        <meta charset="utf-8">
+
+        <!-- Include external CSS. -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.25.0/codemirror.min.css">
+
+        <!-- Include Editor style. -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/froala-editor/2.5.1/css/froala_editor.pkgd.min.css" rel="stylesheet" type="text/css" />
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/froala-editor/2.5.1/css/froala_style.min.css" rel="stylesheet" type="text/css" />
+    </head>
+
+    <body>
+        <!-- Include external JS libs. -->
+        
+<!--        <script type="text/javascript" src="bootstrap-3.3.7-dist/js/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="codemirror-5.30.0/lib/codemirror.js"></script>       
+        <script type="text/javascript" src="codemirror-5.30.0/mode/xml/xml.js"></script>
+
+         Include Editor JS files. 
+        
+        <script type="text/javascript" src="froala_editor_2.7.0/js/froala_editor.pkgd.min.js"></script>-->
+        
+        
+        
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.25.0/codemirror.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.25.0/mode/xml/xml.min.js"></script>
+
+        <!-- Include Editor JS files. -->
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/froala-editor/2.5.1//js/froala_editor.pkgd.min.js"></script>
+        
+        <div class="sample">
+            <h2>File upload example.</h2>
+            <form>
+                <textarea id="edit" name="content"></textarea>
+            </form>
+        </div>
+
+        <!-- Initialize the editor. -->
+<!--        <script>
+            $(function () {
+                $('#edit').froalaEditor({
+                    // Set the image upload URL.
+                    imageUploadURL: '/Texteditor/upload_image',
+                    imageUploadParams: {
+                        id: 'my_editor'
+                    }
+                })
+            });
+        </script>-->
+<script>
+    $(function () {
+       $('#edit').froalaEditor({
+           imageUploadURL: '/Texteditor/upload_image',
+           imaUploadParams:{
+               id: 'my_editor'
+           }
+       }) 
+    });
+</script>
+    </body>
+</html>
